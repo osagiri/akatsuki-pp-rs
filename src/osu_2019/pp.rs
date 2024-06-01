@@ -292,7 +292,7 @@ impl<'m> OsuPP<'m> {
 
         pp *= match self.map.beatmap_id {
             // Louder than steel [ok this is epic]
-            1808605 => 1.00,
+            1808605 => 2.00,
 
             // over the top [Above the stars]
             1821147 => 0.70,
