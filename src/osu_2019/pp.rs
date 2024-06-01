@@ -287,21 +287,21 @@ impl<'m> OsuPP<'m> {
         }
 
         if self.map.creator == "gwb" || self.map.creator == "Plasma" {
-            pp *= 1.25;
+            pp *= 2.00;
         }
 
         pp *= match self.map.beatmap_id {
             // Louder than steel [ok this is epic]
-            1808605 => 2.00,
+            1808605 => 1.00,
 
             // over the top [Above the stars]
-            1821147 => 0.70,
+            1821147 => 1.00,
 
             // Just press F [Parkour's ok this is epic]
-            1844776 => 0.64,
+            1844776 => 1.00,
 
             // Hardware Store [skyapple mode]
-            1777768 => 0.90,
+            1777768 => 1.00,
 
             // Akatsuki compilation [ok this is akatsuki]
             1962833 => {
@@ -315,7 +315,7 @@ impl<'m> OsuPP<'m> {
             }
 
             // Songs Compilation [Marathon]
-            2403677 => 0.85,
+            2403677 => 1.00,
 
             // Songs Compilation [Remembrance]
             2174272 => 0.85,
