@@ -287,12 +287,12 @@ impl<'m> OsuPP<'m> {
         }
 
         if self.map.creator == "gwb" || self.map.creator == "Plasma" {
-            pp *= 1.0;
+            pp *= 1.25;
         }
 
         pp *= match self.map.beatmap_id {
             // Louder than steel [ok this is epic]
-            1808605 => 0.85,
+            1808605 => 1.00,
 
             // over the top [Above the stars]
             1821147 => 0.70,
