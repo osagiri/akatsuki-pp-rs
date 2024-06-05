@@ -308,6 +308,9 @@ impl<'m> OsuPP<'m> {
 
             // Sidetracked Day [Omni's 8-Bit Daydreams] 
             4623353 => 0.90,
+
+            // Lionheart [Sh4rq_'s Heart of the Wilderness]
+            3206402 => 1.10
             
             // Akatsuki compilation [ok this is akatsuki]
             1962833 => {
