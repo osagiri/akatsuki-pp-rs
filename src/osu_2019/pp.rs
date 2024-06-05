@@ -303,12 +303,6 @@ impl<'m> OsuPP<'m> {
             // Hardware Store [skyapple mode]
             1777768 => 1.00,
 
-            // Sidetracked Day [Atomic Dimensions]
-            4611850 => 0.90,
-
-            // Sidetracked Day [Omni's 8-Bit Daydreams] 
-            4623353 => 0.90,
-
             // Lionheart [Sh4rq_'s Heart of the Wilderness]
             3206402 => 1.10,
             
