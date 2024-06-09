@@ -305,6 +305,9 @@ impl<'m> OsuPP<'m> {
 
             // Lionheart [Sh4rq_'s Heart of the Wilderness]
             3206402 => 1.10,
+
+            // Awake [Ultimate Formula]
+            2209202 => 0.80,
             
             // Akatsuki compilation [ok this is akatsuki]
             1962833 => {
